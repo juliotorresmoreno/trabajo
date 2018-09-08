@@ -1,0 +1,15 @@
+
+
+POST http://localhost:4000/users
+Content-Type: application/json
+
+{
+    "gender": "male"
+}
+
+
+###
+GET http://localhost:4000/users?gender=female
+
+
+
